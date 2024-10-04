@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-//making an axios instance so we do no have to call th api multiple times
+//making an axios instance so we do not have to call th api multiple times
 const axiosInstance = axios.create({
   baseURL: 'https://dummyjson.com',
 });
