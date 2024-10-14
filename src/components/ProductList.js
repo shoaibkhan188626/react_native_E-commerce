@@ -13,6 +13,7 @@ const ProductList = () => {
     dispatch(fetchProducts());
   }, [dispatch]);
 
+  const a = 1 ;
   const renderItem = ({item}) => (
     <Card style={styles.card}>
       <Card.Content>
